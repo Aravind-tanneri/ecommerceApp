@@ -1,7 +1,7 @@
-import {createSlice,createAysncThunk} from '@reactjs/tookit';
+import {createSlice,createAsyncThunk} from '@reduxjs/toolkit';
 
 //thunk
-export const fetchProducts = createAysncThunk("product/fetchProducts",async() => {
+export const fetchProducts = createAsyncThunk("product/fetchProducts",async() => {
     console.log("truck departed..");
     const result = await fetch("https://fakestoreapi.com/products");
     const data = await result.json();

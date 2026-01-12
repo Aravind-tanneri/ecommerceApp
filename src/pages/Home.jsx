@@ -19,7 +19,7 @@ const Home = () => {
 
 
   return (
-    <div className='grid '>
+    <div className='flex flex-wrap max-w-[1200px] w-9/10 justify-center items-center mx-auto gap-5 p-5'>
         {items.map((post)=><Product key={post.id} post={post}/>)}
     </div>
   );
