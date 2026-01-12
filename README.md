@@ -1,16 +1,38 @@
-# React + Vite
+## **Ecomzy - React E-Commerce Store**
+Ecomzy is a modern, responsive e-commerce application built using React and Redux Toolkit. Developed as part of the Love Babbar Web Dev Course, this project demonstrates state management for a shopping cart, asynchronous data fetching, and a dynamic dark mode interface.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+https://github.com/user-attachments/assets/f293bd98-0012-41ba-b769-b505a074955d
 
-## React Compiler
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## Expanding the ESLint configuration
+## 🚀 Features
+**Product Catalog:** Dynamically fetches and displays products from the FakeStoreAPI.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+**State Management:** Uses Redux Toolkit to manage the shopping cart (add/remove items) and global theme state.
+
+**Dark Mode:** A fully integrated dark/light theme toggle that updates the UI across all components.
+
+**Responsive UI:** Styled with Tailwind CSS for a clean, mobile-friendly experience.
+
+**Real-time Cart** Updates: Features an animated cart icon badge that reflects the number of items currently in the cart.
+
+**Toast Notifications:** Provides instant feedback using react-hot-toast when items are added or removed.
+
+## 🛠️ Tech Stack
+
+Frontend: React.js
+
+State Management: Redux Toolkit
+
+Styling: Tailwind CSS
+
+Routing: React Router DOM
+
+Icons: React Icons (FaShoppingCart, MdDelete, etc.)
+
+API: FakeStoreAPI
+
+❤️ Acknowledgments
+This project was built with ❤️ during the Love Babbar Web Development Course to master the fundamentals of React and Redux state management.
